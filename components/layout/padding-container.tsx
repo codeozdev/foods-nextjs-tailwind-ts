@@ -2,7 +2,7 @@ import React, { ReactNode } from 'react'
 
 const PaddingContainer = ({ children }: { children: ReactNode }) => {
   return (
-    <div className='mx-auto flex max-w-[1640px] items-center justify-between p-4'>
+    <div className='mx-auto p-4 max-w-[1640px]'>
       {children}
     </div>
   )
