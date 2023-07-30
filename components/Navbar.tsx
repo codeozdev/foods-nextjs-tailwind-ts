@@ -22,7 +22,7 @@ const Navbar: FC = () => {
       {/* left side */}
       <div className='flex items-center justify-between'>
         <div className='flex items-center'>
-          <div className='cursor-pointer' onClick={() => setNav(!nav)}>
+          <div className='cursor-pointer hidden sm:flex' onClick={() => setNav(!nav)}>
             <AiOutlineMenu size={30} />
           </div>
           <h1 className='px-2 text-2xl sm:text-3xl lg:text-4xl'>

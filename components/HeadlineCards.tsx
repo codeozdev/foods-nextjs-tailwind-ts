@@ -5,7 +5,7 @@ import PaddingContainer from './layout/padding-container'
 const HeadlineCards = () => {
   return (
     <PaddingContainer>
-      <div className='grid gap-6 py-12 md:grid-cols-3'>
+      <div className='grid gap-6 md:grid-cols-3'>
         {/* card */}
         <div className='relative rounded-xl'>
           {/* overlay */}

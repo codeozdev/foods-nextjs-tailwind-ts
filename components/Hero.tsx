@@ -7,7 +7,7 @@ const Hero: FC = () => {
     <PaddingContainer>
       <div className='relative max-h-[500px]'>
         {/* overlay */}
-        <div className='absolute flex h-full max-h-[500px] w-full flex-col justify-center bg-black/40 text-gray-200'>
+        <div className='absolute flex h-full max-h-[500px] w-full flex-col justify-center rounded-lg bg-black/40 text-gray-200'>
           <h1 className='px-4 text-4xl font-bold sm:text-5xl md:text-6xl lg:text-7xl'>
             The <span className='text-orange-500'>Best</span>
           </h1>
@@ -21,7 +21,7 @@ const Hero: FC = () => {
           alt='img'
           width={1640}
           height={500}
-          className='max-h-[500px] w-full object-cover'
+          className='max-h-[500px] w-full rounded-lg object-cover'
         />
       </div>
     </PaddingContainer>
